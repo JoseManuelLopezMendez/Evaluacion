@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    background-color:rgb(255, 104, 104);
+}
+
+.contenedor{
+width: 100%;
+background-color: black;
+margin: auto;
+}
+
+.superior{
+    background-color: black;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 400px;
+    padding: 35px;
+}
+
+/*Menu*/
+.menu{
+    float: right;
+    padding: 50px;
+}
+.opciones li{
+    float: left;
+    list-style: none;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 15px;
+}
+.opciones li a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+.opciones li a:hover{
+    background-color: rgb(165, 81, 81);
+    cursor: pointer;
+}
+.cuerpo{
+    overflow: hidden;
+    background-color: grey;
+}
+.texto{
+    font-family:Arial, Helvetica, sans-serif;
+    float: right;
+    padding: 60px;
+}
+.caja{
+    float:left;
+    margin: 80px;
+    width: 280px;
+}
+.caja img{
+    width: 100%;
+}
+.subtitulo{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+h5{
+    text-align: center;
+    color:white;
+}
+h4{
+    color: black;
+}
+h1{
+padding: 30px;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+color: black;
+}
+p{
+    text-align: center;
+    padding: 30px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.tipo{
+    background-color: white;
+    float:left;
+    margin: 10px;
+    width: 20px;
+}
+.tipo img{
+ width: 100%;   
+}
+.tamaños{
+    float: left;
+    width: 180px;
+    margin: 10px;
+}
+.tamaños{
+    width: 100%;
+}
+footer p{
+    color: white;
+}
